@@ -7,39 +7,128 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0456E92F22CCAAC900499EF2 /* GroupsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456E92E22CCAAC900499EF2 /* GroupsTests.swift */; };
+		0456E93122CCD25000499EF2 /* PhotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456E93022CCD25000499EF2 /* PhotosTests.swift */; };
 		0487C4FA22C5B76D0059B2E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487C4F922C5B76D0059B2E0 /* AppDelegate.swift */; };
-		0487C4FC22C5B76D0059B2E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487C4FB22C5B76D0059B2E0 /* ViewController.swift */; };
-		0487C4FF22C5B76D0059B2E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0487C4FD22C5B76D0059B2E0 /* Main.storyboard */; };
 		0487C50122C5B76F0059B2E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0487C50022C5B76F0059B2E0 /* Assets.xcassets */; };
-		0487C50422C5B76F0059B2E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0487C50222C5B76F0059B2E0 /* LaunchScreen.storyboard */; };
+		0487C50D22C5B7F70059B2E0 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487C50B22C5B7F70059B2E0 /* GroupCell.swift */; };
+		0487C50E22C5B7F70059B2E0 /* GroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0487C50C22C5B7F70059B2E0 /* GroupCell.xib */; };
+		0487C51222C5B8860059B2E0 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487C51122C5B8860059B2E0 /* Group.swift */; };
+		0487C51522C5B8CD0059B2E0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487C51422C5B8CD0059B2E0 /* Extensions.swift */; };
+		0487C51722C5B8F90059B2E0 /* RequestsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487C51622C5B8F90059B2E0 /* RequestsManager.swift */; };
+		0487C51922C5B93D0059B2E0 /* GroupsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487C51822C5B93D0059B2E0 /* GroupsPresenter.swift */; };
+		0487C51D22C5B9790059B2E0 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487C51C22C5B9790059B2E0 /* GroupsVC.swift */; };
+		0487C52122C65DC60059B2E0 /* PhotosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487C52022C65DC60059B2E0 /* PhotosPresenter.swift */; };
+		0487C52322C65DF00059B2E0 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487C52222C65DF00059B2E0 /* Photo.swift */; };
+		0487C52522C66BEF0059B2E0 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487C52422C66BEF0059B2E0 /* Style.swift */; };
+		0487C52722C66C470059B2E0 /* PhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487C52622C66C470059B2E0 /* PhotosVC.swift */; };
+		0487C52C22C66CC00059B2E0 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487C52A22C66CC00059B2E0 /* PhotoCell.swift */; };
+		0487C52D22C66CC00059B2E0 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0487C52B22C66CC00059B2E0 /* PhotoCell.xib */; };
+		0487C52F22C6C8490059B2E0 /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487C52E22C6C8490059B2E0 /* MainTabBarVC.swift */; };
+		0487C53322C6EF3C0059B2E0 /* FullImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487C53222C6EF3C0059B2E0 /* FullImageVC.swift */; };
+		0487C53522C6EF880059B2E0 /* FullImagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487C53422C6EF880059B2E0 /* FullImagePresenter.swift */; };
+		04C8F17822CA1E0D005F27FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C8F17622CA1E0D005F27FF /* LaunchScreen.storyboard */; };
+		04C8F17922CA1E0D005F27FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C8F17722CA1E0D005F27FF /* Main.storyboard */; };
+		04C8F17B22CA1F60005F27FF /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8F17A22CA1F60005F27FF /* Repository.swift */; };
+		04D22B0722C8CAC600117EB8 /* Pastel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04D22B0522C8CAC600117EB8 /* Pastel.xcdatamodeld */; };
+		04D22B0922C8D1CC00117EB8 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D22B0822C8D1CC00117EB8 /* CoreDataManager.swift */; };
+		04D22B0D22C8F7E400117EB8 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D22B0C22C8F7E400117EB8 /* SettingsVC.swift */; };
+		3278D0B2F7B1BEEAD97A7E75 /* Pods_Pastel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7145A17C84E7A926D53DF9ED /* Pods_Pastel.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0456E92722CAC0B000499EF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0487C4EE22C5B76D0059B2E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0487C4F522C5B76D0059B2E0;
+			remoteInfo = Pastel;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0456E92222CAC0AF00499EF2 /* PastelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PastelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0456E92622CAC0B000499EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0456E92E22CCAAC900499EF2 /* GroupsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsTests.swift; sourceTree = "<group>"; };
+		0456E93022CCD25000499EF2 /* PhotosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosTests.swift; sourceTree = "<group>"; };
 		0487C4F622C5B76D0059B2E0 /* Pastel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pastel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0487C4F922C5B76D0059B2E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0487C4FB22C5B76D0059B2E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0487C4FE22C5B76D0059B2E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0487C4F922C5B76D0059B2E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		0487C50022C5B76F0059B2E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0487C50322C5B76F0059B2E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0487C50522C5B76F0059B2E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0487C50B22C5B7F70059B2E0 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		0487C50C22C5B7F70059B2E0 /* GroupCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupCell.xib; sourceTree = "<group>"; };
+		0487C51122C5B8860059B2E0 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		0487C51422C5B8CD0059B2E0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0487C51622C5B8F90059B2E0 /* RequestsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsManager.swift; sourceTree = "<group>"; };
+		0487C51822C5B93D0059B2E0 /* GroupsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsPresenter.swift; sourceTree = "<group>"; };
+		0487C51C22C5B9790059B2E0 /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
+		0487C52022C65DC60059B2E0 /* PhotosPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPresenter.swift; sourceTree = "<group>"; };
+		0487C52222C65DF00059B2E0 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		0487C52422C66BEF0059B2E0 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		0487C52622C66C470059B2E0 /* PhotosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosVC.swift; sourceTree = "<group>"; };
+		0487C52A22C66CC00059B2E0 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		0487C52B22C66CC00059B2E0 /* PhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		0487C52E22C6C8490059B2E0 /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
+		0487C53222C6EF3C0059B2E0 /* FullImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FullImageVC.swift; path = ../FullImageVC.swift; sourceTree = "<group>"; };
+		0487C53422C6EF880059B2E0 /* FullImagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FullImagePresenter.swift; path = ../FullImagePresenter.swift; sourceTree = "<group>"; };
+		04C8F17622CA1E0D005F27FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04C8F17722CA1E0D005F27FF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		04C8F17A22CA1F60005F27FF /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		04D22B0622C8CAC600117EB8 /* Pastel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pastel.xcdatamodel; sourceTree = "<group>"; };
+		04D22B0822C8D1CC00117EB8 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		04D22B0C22C8F7E400117EB8 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		7145A17C84E7A926D53DF9ED /* Pods_Pastel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pastel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92AFDA48698D74C26B8DC784 /* Pods-Pastel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pastel.release.xcconfig"; path = "Target Support Files/Pods-Pastel/Pods-Pastel.release.xcconfig"; sourceTree = "<group>"; };
+		FCD930122368283C20FEE4A6 /* Pods-Pastel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pastel.debug.xcconfig"; path = "Target Support Files/Pods-Pastel/Pods-Pastel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0487C4F322C5B76D0059B2E0 /* Frameworks */ = {
+		0456E91F22CAC0AF00499EF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0487C4F322C5B76D0059B2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3278D0B2F7B1BEEAD97A7E75 /* Pods_Pastel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0456E92322CAC0B000499EF2 /* PastelTests */ = {
+			isa = PBXGroup;
+			children = (
+				0456E92E22CCAAC900499EF2 /* GroupsTests.swift */,
+				0456E93022CCD25000499EF2 /* PhotosTests.swift */,
+				0456E92622CAC0B000499EF2 /* Info.plist */,
+			);
+			path = PastelTests;
+			sourceTree = "<group>";
+		};
+		0456E93222CD3F9A00499EF2 /* Full Image */ = {
+			isa = PBXGroup;
+			children = (
+				0487C53222C6EF3C0059B2E0 /* FullImageVC.swift */,
+				0487C53422C6EF880059B2E0 /* FullImagePresenter.swift */,
+			);
+			path = "Full Image";
+			sourceTree = "<group>";
+		};
 		0487C4ED22C5B76D0059B2E0 = {
 			isa = PBXGroup;
 			children = (
+				04D22B0522C8CAC600117EB8 /* Pastel.xcdatamodeld */,
 				0487C4F822C5B76D0059B2E0 /* Pastel */,
+				0456E92322CAC0B000499EF2 /* PastelTests */,
 				0487C4F722C5B76D0059B2E0 /* Products */,
+				A639C463551D0D4449E450FE /* Pods */,
+				AE5BA52F56C54E77EB86EBB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				0487C4F622C5B76D0059B2E0 /* Pastel.app */,
+				0456E92222CAC0AF00499EF2 /* PastelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,26 +144,168 @@
 		0487C4F822C5B76D0059B2E0 /* Pastel */ = {
 			isa = PBXGroup;
 			children = (
-				0487C4F922C5B76D0059B2E0 /* AppDelegate.swift */,
-				0487C4FB22C5B76D0059B2E0 /* ViewController.swift */,
-				0487C4FD22C5B76D0059B2E0 /* Main.storyboard */,
+				04D22B0E22CA1B2200117EB8 /* AppDelegate */,
+				0487C53622C6F02B0059B2E0 /* Utilities */,
+				04D22B0F22CA1B3E00117EB8 /* Storyboards */,
+				0487C51A22C5B9450059B2E0 /* Scenes */,
+				0487C51322C5B88B0059B2E0 /* Models */,
 				0487C50022C5B76F0059B2E0 /* Assets.xcassets */,
-				0487C50222C5B76F0059B2E0 /* LaunchScreen.storyboard */,
 				0487C50522C5B76F0059B2E0 /* Info.plist */,
 			);
 			path = Pastel;
 			sourceTree = "<group>";
 		};
+		0487C51022C5B80B0059B2E0 /* GroupCell */ = {
+			isa = PBXGroup;
+			children = (
+				0487C50B22C5B7F70059B2E0 /* GroupCell.swift */,
+				0487C50C22C5B7F70059B2E0 /* GroupCell.xib */,
+			);
+			path = GroupCell;
+			sourceTree = "<group>";
+		};
+		0487C51322C5B88B0059B2E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0487C51122C5B8860059B2E0 /* Group.swift */,
+				0487C52222C65DF00059B2E0 /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0487C51A22C5B9450059B2E0 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0487C52E22C6C8490059B2E0 /* MainTabBarVC.swift */,
+				04D22B0C22C8F7E400117EB8 /* SettingsVC.swift */,
+				0487C51B22C5B9540059B2E0 /* Groups */,
+				0487C51F22C65CDA0059B2E0 /* Photos */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0487C51B22C5B9540059B2E0 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				0487C51822C5B93D0059B2E0 /* GroupsPresenter.swift */,
+				0487C51C22C5B9790059B2E0 /* GroupsVC.swift */,
+				0487C51E22C65CC50059B2E0 /* Reusables */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		0487C51E22C65CC50059B2E0 /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				0487C51022C5B80B0059B2E0 /* GroupCell */,
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
+		0487C51F22C65CDA0059B2E0 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				0487C52022C65DC60059B2E0 /* PhotosPresenter.swift */,
+				0487C52622C66C470059B2E0 /* PhotosVC.swift */,
+				0456E93222CD3F9A00499EF2 /* Full Image */,
+				0487C52822C66CA40059B2E0 /* Reusables */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		0487C52822C66CA40059B2E0 /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				0487C52922C66CAB0059B2E0 /* PhotoCell */,
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
+		0487C52922C66CAB0059B2E0 /* PhotoCell */ = {
+			isa = PBXGroup;
+			children = (
+				0487C52A22C66CC00059B2E0 /* PhotoCell.swift */,
+				0487C52B22C66CC00059B2E0 /* PhotoCell.xib */,
+			);
+			path = PhotoCell;
+			sourceTree = "<group>";
+		};
+		0487C53622C6F02B0059B2E0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0487C51422C5B8CD0059B2E0 /* Extensions.swift */,
+				04D22B0822C8D1CC00117EB8 /* CoreDataManager.swift */,
+				0487C51622C5B8F90059B2E0 /* RequestsManager.swift */,
+				04C8F17A22CA1F60005F27FF /* Repository.swift */,
+				0487C52422C66BEF0059B2E0 /* Style.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		04D22B0E22CA1B2200117EB8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0487C4F922C5B76D0059B2E0 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		04D22B0F22CA1B3E00117EB8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				04C8F17622CA1E0D005F27FF /* LaunchScreen.storyboard */,
+				04C8F17722CA1E0D005F27FF /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A639C463551D0D4449E450FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCD930122368283C20FEE4A6 /* Pods-Pastel.debug.xcconfig */,
+				92AFDA48698D74C26B8DC784 /* Pods-Pastel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE5BA52F56C54E77EB86EBB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7145A17C84E7A926D53DF9ED /* Pods_Pastel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0456E92122CAC0AF00499EF2 /* PastelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0456E92922CAC0B000499EF2 /* Build configuration list for PBXNativeTarget "PastelTests" */;
+			buildPhases = (
+				0456E91E22CAC0AF00499EF2 /* Sources */,
+				0456E91F22CAC0AF00499EF2 /* Frameworks */,
+				0456E92022CAC0AF00499EF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0456E92822CAC0B000499EF2 /* PBXTargetDependency */,
+			);
+			name = PastelTests;
+			productName = PastelTests;
+			productReference = 0456E92222CAC0AF00499EF2 /* PastelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		0487C4F522C5B76D0059B2E0 /* Pastel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0487C50822C5B76F0059B2E0 /* Build configuration list for PBXNativeTarget "Pastel" */;
 			buildPhases = (
+				13783ED4D24DDEF8F86909A4 /* [CP] Check Pods Manifest.lock */,
 				0487C4F222C5B76D0059B2E0 /* Sources */,
 				0487C4F322C5B76D0059B2E0 /* Frameworks */,
 				0487C4F422C5B76D0059B2E0 /* Resources */,
+				19E14EBE2F0A33CF2E1385A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -94,6 +326,10 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Ahmed Zaghloul";
 				TargetAttributes = {
+					0456E92122CAC0AF00499EF2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0487C4F522C5B76D0059B2E0;
+					};
 					0487C4F522C5B76D0059B2E0 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -113,55 +349,169 @@
 			projectRoot = "";
 			targets = (
 				0487C4F522C5B76D0059B2E0 /* Pastel */,
+				0456E92122CAC0AF00499EF2 /* PastelTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0456E92022CAC0AF00499EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0487C4F422C5B76D0059B2E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0487C50422C5B76F0059B2E0 /* LaunchScreen.storyboard in Resources */,
 				0487C50122C5B76F0059B2E0 /* Assets.xcassets in Resources */,
-				0487C4FF22C5B76D0059B2E0 /* Main.storyboard in Resources */,
+				04C8F17922CA1E0D005F27FF /* Main.storyboard in Resources */,
+				04C8F17822CA1E0D005F27FF /* LaunchScreen.storyboard in Resources */,
+				0487C50E22C5B7F70059B2E0 /* GroupCell.xib in Resources */,
+				0487C52D22C66CC00059B2E0 /* PhotoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13783ED4D24DDEF8F86909A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pastel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19E14EBE2F0A33CF2E1385A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pastel/Pods-Pastel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pastel/Pods-Pastel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		0456E91E22CAC0AF00499EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0456E92F22CCAAC900499EF2 /* GroupsTests.swift in Sources */,
+				0456E93122CCD25000499EF2 /* PhotosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0487C4F222C5B76D0059B2E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0487C4FC22C5B76D0059B2E0 /* ViewController.swift in Sources */,
+				04D22B0D22C8F7E400117EB8 /* SettingsVC.swift in Sources */,
+				0487C51222C5B8860059B2E0 /* Group.swift in Sources */,
+				0487C52722C66C470059B2E0 /* PhotosVC.swift in Sources */,
+				0487C51D22C5B9790059B2E0 /* GroupsVC.swift in Sources */,
+				0487C52F22C6C8490059B2E0 /* MainTabBarVC.swift in Sources */,
+				04D22B0922C8D1CC00117EB8 /* CoreDataManager.swift in Sources */,
+				04D22B0722C8CAC600117EB8 /* Pastel.xcdatamodeld in Sources */,
+				0487C51722C5B8F90059B2E0 /* RequestsManager.swift in Sources */,
+				0487C52C22C66CC00059B2E0 /* PhotoCell.swift in Sources */,
+				0487C52322C65DF00059B2E0 /* Photo.swift in Sources */,
 				0487C4FA22C5B76D0059B2E0 /* AppDelegate.swift in Sources */,
+				04C8F17B22CA1F60005F27FF /* Repository.swift in Sources */,
+				0487C53522C6EF880059B2E0 /* FullImagePresenter.swift in Sources */,
+				0487C51922C5B93D0059B2E0 /* GroupsPresenter.swift in Sources */,
+				0487C52122C65DC60059B2E0 /* PhotosPresenter.swift in Sources */,
+				0487C50D22C5B7F70059B2E0 /* GroupCell.swift in Sources */,
+				0487C51522C5B8CD0059B2E0 /* Extensions.swift in Sources */,
+				0487C52522C66BEF0059B2E0 /* Style.swift in Sources */,
+				0487C53322C6EF3C0059B2E0 /* FullImageVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		0487C4FD22C5B76D0059B2E0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0487C4FE22C5B76D0059B2E0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		0456E92822CAC0B000499EF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0487C4F522C5B76D0059B2E0 /* Pastel */;
+			targetProxy = 0456E92722CAC0B000499EF2 /* PBXContainerItemProxy */;
 		};
-		0487C50222C5B76F0059B2E0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0487C50322C5B76F0059B2E0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0456E92A22CAC0B000499EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D8A6QNLTF;
+				INFOPLIST_FILE = PastelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AhmedZaghloul.PastelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pastel.app/Pastel";
+			};
+			name = Debug;
+		};
+		0456E92B22CAC0B000499EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D8A6QNLTF;
+				INFOPLIST_FILE = PastelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AhmedZaghloul.PastelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pastel.app/Pastel";
+			};
+			name = Release;
+		};
 		0487C50622C5B76F0059B2E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -280,6 +630,7 @@
 		};
 		0487C50922C5B76F0059B2E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCD930122368283C20FEE4A6 /* Pods-Pastel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +649,7 @@
 		};
 		0487C50A22C5B76F0059B2E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92AFDA48698D74C26B8DC784 /* Pods-Pastel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,6 +669,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0456E92922CAC0B000499EF2 /* Build configuration list for PBXNativeTarget "PastelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0456E92A22CAC0B000499EF2 /* Debug */,
+				0456E92B22CAC0B000499EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0487C4F122C5B76D0059B2E0 /* Build configuration list for PBXProject "Pastel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -336,6 +697,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04D22B0522C8CAC600117EB8 /* Pastel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04D22B0622C8CAC600117EB8 /* Pastel.xcdatamodel */,
+			);
+			currentVersion = 04D22B0622C8CAC600117EB8 /* Pastel.xcdatamodel */;
+			path = Pastel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0487C4EE22C5B76D0059B2E0 /* Project object */;
 }
